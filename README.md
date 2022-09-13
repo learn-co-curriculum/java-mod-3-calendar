@@ -25,7 +25,10 @@ could be created in operating systems and programming languages that use this
 common construct. Meaning, all other dates and times are measured off of this
 datetime. We can also think of the time elapsed from January 1, 1970 at
 00:00:00 as a **Unix epoch time**, which is the number of seconds or
-milliseconds that have passed since the arbitrary start time.
+milliseconds that have passed since the arbitrary start time. An easy resource
+to obtain epoch timestamps is to use the [Epoch Converter](https://www.epochconverter.com/)
+which consists of conversion tools to get a specific date as an epoch or vice
+versa.
 
 ## Java's `Date` Class
 
@@ -295,6 +298,7 @@ at least have an understanding of these classes and how they work.
 
 ## Resources
 
+- [Unix Epoch Timestamps](https://www.epochconverter.com/)
 - [Java 11 Date Class](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Date.html)
 - [Java 11 Calendar Class](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Calendar.html)
 - [Java 11 GregorianCalendar Class](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/GregorianCalendar.html)
