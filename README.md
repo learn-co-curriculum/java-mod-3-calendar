@@ -255,7 +255,7 @@ would like to add:
 ```java
 import java.util.Calendar;
 
-public class Example {
+public class CalendarExample {
 
     public static void main(String[] args) {
 
