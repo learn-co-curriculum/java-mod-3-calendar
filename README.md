@@ -223,13 +223,13 @@ public class CalendarExample {
         // Let's specify the hour and the minute
         // This method takes in the year, month, day of the month, hour, and minute fields:
         // set(int year, int month, int date, int hour, int minute)
-        calendar1.set(1955, 10, 5, 12, 0);
+        calendar1.set(1955, 10, 5, 6, 15);
         System.out.println(calendar1.getTime());
         
         // If we want to be extra specific, we could even set the second field
         // This method takes in the year, month, day of the month, hour, minute, and second fields:
         // set(int year, int month, int date, int hour, int minute, int second)
-        calendar1.set(1955, 10, 5, 12, 0, 0);
+        calendar1.set(1955, 10, 5, 6, 15, 0);
         System.out.println(calendar1.getTime());
 
     }
@@ -242,8 +242,8 @@ Upon running the code, we might have an output that looks something like this:
 Mon Sep 12 06:53:41 MDT 2022
 Mon Sep 12 06:53:41 MST 1955
 Sat Nov 05 06:53:41 MST 1955
-Sat Nov 05 12:00:41 MST 1955
-Sat Nov 05 12:00:00 MST 1955
+Sat Nov 05 06:15:41 MST 1955
+Sat Nov 05 06:15:00 MST 1955
 ```
 
 ### Add
@@ -263,7 +263,7 @@ public class CalendarExample {
         // want to go forward 30 years
         
         Calendar calendar1 = Calendar.getInstance();
-        calendar1.set(1955, 10, 5, 12, 0, 0);
+        calendar1.set(1955, 10, 5, 6, 15, 0);
         System.out.println(calendar1.getTime());
         
         // Let's go forward in time by 30 years!
@@ -277,8 +277,8 @@ public class CalendarExample {
 The output of the above code may look like this:
 
 ```plaintext
-Sat Nov 05 12:00:00 MST 1955
-Tue Nov 05 12:00:00 MST 1985
+Sat Nov 05 06:15:00 MST 1955
+Tue Nov 05 06:15:00 MST 1985
 ```
 
 ## Conclusion
